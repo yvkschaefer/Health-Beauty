@@ -1,0 +1,21 @@
+{
+  "name": "beauty",
+  "version": "1.0.0",
+  "description": "skin and hair care",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skin",
+    "hair",
+    "health",
+    "beauty"
+  ],
+  "author": "Kara Schaefer",
+  "license": "ISC"
+}
