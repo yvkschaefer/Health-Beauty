@@ -1,8 +1,21 @@
-.health-and-beauty .landing-img img {
+.health-and-beauty {
+  font-family: 'Quattrocento Sans', sans-serif;
+  margin: 0; }
+
+.landing-img img {
   height: 50vh;
   display: block;
   margin: auto; }
-.health-and-beauty h1 {
-  font-family: cursive; }
+
+.main-body {
+  background-color: rgba(249, 5, 209, 0.4);
+  height: 50vh; }
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  padding: 3vh 0;
+  font-size: 4vh;
+  margin: 0; }
 
 /*# sourceMappingURL=app.css.map */
