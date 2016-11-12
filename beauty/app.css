@@ -27,7 +27,7 @@
   height: 50vh;
   display: block;
   margin: auto;
-  animation: fadeOut 3s 1s 2 linear alternate; }
+  animation: fadeOut 3s 1s infinite linear alternate; }
 
 .main-body {
   background-color: rgba(249, 5, 209, 0.4);
@@ -40,7 +40,7 @@
   padding: 3vh 0;
   width: 100%;
   position: absolute;
-  left: 35%; }
+  left: 33%; }
 
 h1 {
   font-size: 4vh; }
@@ -55,7 +55,7 @@ h2 {
   margin: 0.5% 0 0 0.5%;
   border-radius: 50%;
   background-color: rgba(40, 40, 225, 0.6);
-  animation: fadeOutWithColour 3s 1s 3 alternate; }
+  animation: fadeOutWithColour 3s 1s infinite alternate; }
 
 .featured-three {
   display: flex;
@@ -73,7 +73,8 @@ h2 {
   height: 15%;
   padding: 2%; }
 
-.feature:hover {
+.feature:hover,
+.logo:hover {
   background-color: rgba(255, 255, 255, 0.3); }
 
 .hair {
