@@ -3,21 +3,68 @@
   margin: 0;
 }
 
+@keyframes fadeOut {
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes fadeOutWithColour{
+  0%  {
+    background:rgba(243, 88, 16, 0.8);
+    transform:rotate(0deg);
+  }
+  25%  {
+    background:rgba(40, 40, 225, 0.6);
+    transform:rotate(45deg);
+  }
+  50%  {
+    background:indianred;
+    transform:rotate(90deg);
+  }
+  75%  {
+    background:lightcoral;
+    transform:rotate(135deg);
+  }
+  100% {
+    background:rgba(40, 40, 225, 0.6);
+    transform:rotate(180deg);
+  }
+}
+
 .landing-img img {
   height: 50vh;
   display: block;
   margin: auto;
+  animation: fadeOut 3s 1s 2 linear alternate;
 }
 
 .main-body {
   background-color: rgba(249, 5, 209, 0.4);
   height: 50vh;
+  position: relative;
+}
+
+.title-container {
+  display: flex;
+  text-align: center;
+  padding: 3vh 0;
+  width: 100%;
+  position: absolute;
+  left: 24%;
 }
 
 h1 {
   color: #FFF;
-  text-align: center;
-  padding: 3vh 0;
   font-size: 4vh;
   margin: 0;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  margin: 0.7% 0 0 1%;
+  border-radius: 50%;
+  background-color: rgba(40, 40, 225, 0.6);
+  animation: fadeOutWithColour 3s 1s 3 alternate;
 }
