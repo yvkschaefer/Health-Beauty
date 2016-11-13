@@ -7,7 +7,7 @@
 @keyframes fadeOut {
   to {
     opacity: 0.6; } }
-@keyframes fadeOutWithColour {
+@keyframes colourChange {
   0% {
     background: rgba(40, 40, 225, 0.6);
     transform: rotate(0deg); }
@@ -52,21 +52,21 @@ h2 {
 .circle {
   height: 20px;
   width: 20px;
-  margin: 0.5% 0 0 0.5%;
+  margin: 0.7% 0 0 0.5%;
   border-radius: 50%;
   background-color: rgba(40, 40, 225, 0.6);
-  animation: fadeOutWithColour 3s 1s infinite alternate; }
+  animation: colourChange 3s 1s infinite alternate; }
 
 .featured-three {
   display: flex;
   position: absolute;
   top: 33%;
-  height: 50%;
+  height: 16%;
   width: 79%;
-  left: 11%; }
+  left: 26%; }
 
 .feature {
-  width: 33%;
+  width: 15%;
   text-align: center;
   border: 1px solid #FFF;
   border-radius: 4px;
@@ -78,18 +78,44 @@ h2 {
   background-color: rgba(255, 255, 255, 0.3); }
 
 .hair {
-  margin: 0 1%; }
+  margin: 0 0.7%; }
 
-footer {
+h2 {
+  margin-top: -5%; }
+
+.logo-container {
   background-color: rgba(249, 5, 209, 0.4);
   height: 5vh; }
 
 .logo {
   border: 1px solid #FFF;
-  border-radius: 4px;
+  border-radius: 6px;
   width: 75px;
   padding: 0.5% 1%;
   margin: 0 0 1.5% 1%;
   height: 15px; }
+
+a {
+  text-decoration: none;
+  color: #FFF; }
+
+article {
+  height: 10vh;
+  padding: 20% 4%; }
+
+#pores {
+  color: rgba(40, 40, 225, 0.6); }
+
+#hair {
+  background-color: rgba(40, 40, 225, 0.6); }
+
+#skin {
+  color: rgba(249, 5, 209, 0.4); }
+
+footer {
+  height: 14vh;
+  background-color: rgba(249, 5, 209, 0.4);
+  text-align: center;
+  padding: 4%; }
 
 /*# sourceMappingURL=app.css.map */
